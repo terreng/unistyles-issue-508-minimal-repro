@@ -8,17 +8,9 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.terrenprogramming.riderappdev",
-      "icon": "./assets/logos/ios/icon_1024_apple.png"
+      "bundleIdentifier": "com.terrenprogramming.riderappdev"
     },
     "android": {
-      "icon": "./assets/logos/android/icon-192-xxxhdpi.png",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/logos/android/Android Icon Adaptive Foreground.png",
-        "monochromeImage": "./assets/logos/android/Android icon Monochrome.png",
-        "backgroundColor": "#00b67a",
-        "backgroundImage": "./assets/logos/android/Android Icon Adaptive Background.png"
-      },
       "package": "com.terrenprogramming.riderappdev"
     },
     "web": {
@@ -31,13 +23,7 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#ffffff",
-          "image": "./assets/logos/logo.png",
-          "dark": {
-            "backgroundColor": "#212121",
-            "image": "./assets/logos/logo.png"
-          },
-          "imageWidth": 150
+          "backgroundColor": "#ffffff"
         }
       ]
     ],
