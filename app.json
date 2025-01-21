@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Trivory",
+    "slug": "Trivory",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.terrenprogramming.riderappdev",
+      "icon": "./assets/logos/ios/icon_1024_apple.png"
+    },
+    "android": {
+      "icon": "./assets/logos/android/icon-192-xxxhdpi.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logos/android/Android Icon Adaptive Foreground.png",
+        "monochromeImage": "./assets/logos/android/Android icon Monochrome.png",
+        "backgroundColor": "#00b67a",
+        "backgroundImage": "./assets/logos/android/Android Icon Adaptive Background.png"
+      },
+      "package": "com.terrenprogramming.riderappdev"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      "react-native-edge-to-edge",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/logos/logo.png",
+          "dark": {
+            "backgroundColor": "#212121",
+            "image": "./assets/logos/logo.png"
+          },
+          "imageWidth": 150
+        }
+      ]
+    ],
+    "scheme": "trivory",
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
